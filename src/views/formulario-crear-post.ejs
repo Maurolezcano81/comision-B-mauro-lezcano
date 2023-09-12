@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear un Nuevo Post</title>
+</head>
+<body>
+    <h1>Crear un Nuevo Post</h1>
+    <form action="/crear-post" method="POST">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required>
+        
+        <label for="contenido">Contenido:</label>
+        <textarea id="contenido" name="contenido" required></textarea>
+        
+        <label for="enlace_imagen">URL de la Imagen:</label>
+        <input type="text" id="enlace_imagen" name="enlace_imagen">
+        
+        <button type="submit">Crear Post</button>
+    </form>
+</body>
+</html>
