@@ -5,6 +5,7 @@ const router = express.Router();
 const postControlador = require('../controllers/postControlador');
 
 // Defino la ruta para el post
-router.post('/crear-Post', postControlador.crearPost);
-
+router.get('/crear-post', postControlador.mostrarFormularioCrearPost);
+router.post('/crear-post', postControlador.crearPost)
+// Ruta para procesar la creación de un nuevo post
 module.exports = router;

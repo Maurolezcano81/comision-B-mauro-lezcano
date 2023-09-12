@@ -1,10 +1,11 @@
-const {Post} = require('../models/Post');
+const Post = require('../models/Post');
+function mostrarFormularioCrearPost(req, res) {
+    res.render('crearPost');
+  }
 
-exports.crearPost = async (req, res) =>{
+const crearPost = async (req, res) =>{
     try{
         const {titulo, contenido, enlace_imagen} = req.body;
-
-
         // Compruebo si falta titulo o contenido
         if(!titulo || !contenido){
             return res.status(400).json({error: 'Faltan datos'}); 
@@ -14,14 +15,17 @@ exports.crearPost = async (req, res) =>{
         const nuevoPost = await Post.create({
             titulo,
             contenido,
-            enlace_imagen
-        })
-
-        res.redirect(`/posts/${nuevoPost.id}`);
-    } catch(error){
+            enlace_imagen,
+          });
+      
+          res.status(201).json({ message: 'Post creado con éxito', post: nuevoPost });
+        } catch(error){
         console.error(error);
         res.status(500).json({erorr: 'Error al crear el post.'});
     };
 };
 
-module.exports = exports;
+module.exports = {
+    crearPost,
+    mostrarFormularioCrearPost
+};
