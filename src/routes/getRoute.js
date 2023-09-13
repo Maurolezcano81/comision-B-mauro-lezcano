@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const mostrarInicio = require('../controllers/getControlador');
+const getControlador = require('../controllers/getControlador');
 
-router.get('/', mostrarInicio);
+router.get('/', getControlador.mostrarInicio);
 
 module.exports = router;

@@ -13,4 +13,6 @@ const mostrarInicio = async (req, res) => {
     }
 }
 
-module.exports = mostrarInicio;
+
+
+module.exports = {mostrarInicio};

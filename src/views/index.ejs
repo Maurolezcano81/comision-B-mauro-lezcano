@@ -30,8 +30,13 @@
                       <span class="material-symbols-outlined">delete</span>
                     </button>
 
-                      <button value="<%= posteo.id %>" class="editar"><span class="material-symbols-outlined">
-                        edit</span></button>
+                    <form action="
+                    /actualizar/<%= posteo.id %>"><button value="<%= posteo.id %>" type="submit" class="editar">
+                      <span class="material-symbols-outlined">
+                    edit</span>
+                  </button></form>
+                          
+                      
                   </div>
                 </div>
                 <h5 class="text-uppercase  fs-3"><%= posteo.titulo%></h5> 

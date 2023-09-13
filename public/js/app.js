@@ -9,14 +9,14 @@ $(document).ready(function() {
             url: '/eliminar/' + postId,
             type: 'DELETE',
             success: function(result) {
-                console.log(result);
                 window.location.href = '/';
             },
             error: function(err) {
                 console.error(err);
-                // Maneja errores si es necesario
             }
         });
     });
+
+
 
 });
