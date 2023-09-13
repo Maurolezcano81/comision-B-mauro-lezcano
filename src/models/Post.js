@@ -7,7 +7,11 @@ const Post = sequelize.define('Post', {
   titulo: DataTypes.STRING,
   contenido: DataTypes.TEXT,
   enlace_imagen: DataTypes.STRING,
-  fecha_creado: DataTypes.DATE,
+  fecha_creado: {
+    type: DataTypes.DATEONLY,
+    defaultValue: sequelize.literal('CURRENT_DATE'),
+  }
+
 }, {
   timestamps: false,
 });

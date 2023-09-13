@@ -16,7 +16,7 @@ const crearPost = async (req, res) =>{
             titulo,
             contenido,
             enlace_imagen,
-          });
+        });
       
           res.status(201).json({ message: 'Post creado con éxito', post: nuevoPost });
         } catch(error){
