@@ -1,7 +1,7 @@
 const Post = require('../models/Post');
 const eliminarPost = async (req, res) => {
     try {
-        const { id } = req.params; // Captura el ID del parámetro de la URL
+        const { id } = req.params; // Id por parametros /:id
         await Post.destroy({
             where: {
                 id

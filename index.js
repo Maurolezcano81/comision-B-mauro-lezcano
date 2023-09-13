@@ -12,6 +12,8 @@ const rutaGet = require('./src/routes/getRoute');
 const rutaDelete = require('./src/routes/deleteRoute');
 const rutaUpdate = require('./src/routes/putRoute');
 const methodOverride = require('method-override');
+
+// Para poder cargar el PUT del hidden invisible
 app.use(methodOverride('_method'));
 
 // Seteo el Template Engine

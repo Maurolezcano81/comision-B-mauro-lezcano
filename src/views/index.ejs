@@ -23,21 +23,14 @@
             <div class="main w-50 p-4 d-flex flex-column justify-content-center align-items-center border-end border-start border-bottom border-secondary gap-3">
               <div class="w-100 text-center">
                 <div class="botones">
-                  <div >
-
                     <!-- Guardo el id del post en el value del button -->
                     <button value="<%= posteo.id %>" class="borrar">
                       <span class="material-symbols-outlined">delete</span>
                     </button>
-
-                    <form action="
-                    /actualizar/<%= posteo.id %>"><button value="<%= posteo.id %>" type="submit" class="editar">
-                      <span class="material-symbols-outlined">
-                    edit</span>
-                  </button></form>
-                          
-                      
-                  </div>
+                  <form action="/actualizar/<%= posteo.id %>"><button value="<%= posteo.id %>" type="submit" class="editar">
+                    <span class="material-symbols-outlined">
+                  edit</span>
+                </button></form>
                 </div>
                 <h5 class="text-uppercase  fs-3"><%= posteo.titulo%></h5> 
               </div>

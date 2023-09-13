@@ -12,6 +12,7 @@
 <body class="w-100 bg-dark text-light d-flex  flex-column justify-content-center align-items-center" style="height: 100vh;">
 
     <form action="/actualizar/post/<%= posteo.id %>/" class="bg-white rounded d-flex flex-column py-5 px-5 border border-secondary" style="--bs-bg-opacity: .1" method="POST">
+        <!-- Creo el type hidden para que se envie el metodo PUT -->
         <input type="hidden" name="_method" value="PUT">
         <h1 class="text-center m-5">Actualizar el Post</h1>
         <label for="titulo" class="form-label">Título:</label>
