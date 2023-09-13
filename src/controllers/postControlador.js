@@ -18,7 +18,7 @@ const crearPost = async (req, res) =>{
             enlace_imagen,
         });
       
-          res.status(201).json({ message: 'Post creado con éxito', post: nuevoPost });
+          res.redirect('/');
         } catch(error){
         console.error(error);
         res.status(500).json({erorr: 'Error al crear el post.'});
