@@ -6,8 +6,8 @@ Este repositorio contiene la entrega final del proyecto realizado como parte del
 
 Este proyecto tiene como objetivo la creación de un foro personalizado en el que los usuarios puedan crear y compartir publicaciones sobre diversos temas en una página web personal. Cada publicación contendrá un título descriptivo, contenido informativo, una fecha de creación y la opción de adjuntar un enlace (URL) a una imagen relacionada con el contenido.
 
-## Características Clave
-- Creación de Publicaciones: Los usuarios pueden crear publicaciones con títulos, contenido, fechas y enlaces de imágenes.
+## Requerimientos para el desarrollo del proyecto.
+- Creación de Publicaciones: El usuario puede crear publicaciones con títulos, contenido, fechas y enlaces de imágenes.
 - Interfaz Intuitiva: La interfaz será intuitiva y atractiva, con un diseño responsivo para adaptarse a diferentes dispositivos.
 - Tecnologías Utilizadas: Se emplearán tecnologías web como Node.js, EJS, MySQL y Sequelize para desarrollar la aplicación.
 - Estilo Personalizable: Se permitirá la personalización del estilo y la apariencia del foro utilizando Bootstrap y CSS personalizado.
