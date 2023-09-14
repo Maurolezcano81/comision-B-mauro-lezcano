@@ -12,3 +12,16 @@
     padding: 0.5rem;
 }
 
+#botonEditar{
+    border: none;
+    background-color: rgba(7, 166, 230, 0.5);
+    padding: 0.5rem;
+    color: white;
+    transition: ease .5s;
+}
+
+#botonEditar:hover{
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 0.5rem;
+}
