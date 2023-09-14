@@ -48,6 +48,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 6. Ejecuta la aplicacion:
     ```bash
     node index.js
+La aplicación estará disponible en http://localhost:3000 en tu navegador.
 
 ## Capturas de Pantalla
 ### Inicio
