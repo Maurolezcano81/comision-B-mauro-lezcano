@@ -1,4 +1,4 @@
-# Proyecto de Entrega - Lenguajes de Programación I | Comisión 21646 B
+# Proyecto de Entrega - Lenguajes de Programación 1 | Tramo 2 Comisión 21646 B
 
 Este repositorio contiene la entrega final del proyecto realizado como parte del curso Lenguajes de Programacion I. A continuación, encontrarás información importante sobre el proyecto, instrucciones de instalación y algunas capturas de pantalla para ilustrar el trabajo realizado.
 
@@ -61,7 +61,7 @@ La aplicación estará disponible en http://localhost:3000 en tu navegador.
 ![Imagen del Inicio con post creado](/public/images/repositorio/Index-post.png)
 
 ## Creditos
-Este proyecto fue creado por Mauro Lezcano, para el curso de Lenguajes de Programación I impartido por EPICA.
+Este proyecto fue creado por Mauro Lezcano, para el curso de Lenguajes de Programación 1 Tramo 2 impartido por EPICA.
 
 ## Contacto
 En caso de querer contactarse conmigo, dejo mi direccion de correo electronico.
